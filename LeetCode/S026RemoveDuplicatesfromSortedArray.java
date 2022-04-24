@@ -1,6 +1,6 @@
 package LeetCode;
 
-public class S26_RemoveDuplicatesfromSortedArray {
+public class S026RemoveDuplicatesfromSortedArray {
     public int removeDuplicates(int[] nums) {
         int length=0,temp=Integer.MIN_VALUE;
         for(int i=0;i<nums.length;i++){

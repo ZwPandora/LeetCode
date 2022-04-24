@@ -2,7 +2,7 @@ package LeetCode;
 
 import java.util.Scanner;
 
-public class S05_LongestPalindromicSubstring {
+public class S005LongestPalindromicSubstring {
 	public static void main(String[]argus)
 	{
 		Scanner in=new Scanner(System.in);
@@ -11,7 +11,7 @@ public class S05_LongestPalindromicSubstring {
 		System.out.print(longestPalidrome(s));
 	}
 	/*
-	 * ÕÒ³ö×Ö·û´®ÖÐ×î³¤µÄ»ØÎÄ×Ó´®
+	 * ï¿½Ò³ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½î³¤ï¿½Ä»ï¿½ï¿½ï¿½ï¿½Ó´ï¿½
 	 * Key idea, every time we move to right, 
 	 * we only need to consider whether using this new character 
 	 * as tail could produce new palindrome string
@@ -33,7 +33,7 @@ public class S05_LongestPalindromicSubstring {
 		}		
 		return res;		
 	}
-	//ÅÐ¶ÏÄ³¶ÎÊÇ·ñÎª»ØÎÄ
+	//ï¿½Ð¶ï¿½Ä³ï¿½ï¿½ï¿½Ç·ï¿½Îªï¿½ï¿½ï¿½ï¿½
 	public static boolean isPalidrome(String s,int begin,int end) {
 		if(begin<0)return false;
 		while(begin<end) {

@@ -1,12 +1,9 @@
 package LeetCode;
 
-class ListNode {
-	int val;
-	ListNode next;
-	ListNode(int x) { val = x; }
-}
 
-public class S02_AddTwoNumbers {
+import util.ListNode;
+
+public class S002AddTwoNumbers {
 	public static void main(String[] argus) {
 		ListNode l1=new ListNode(2);
 		l1.next=new ListNode(4);

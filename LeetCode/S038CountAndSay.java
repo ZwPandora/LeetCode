@@ -1,6 +1,6 @@
 package LeetCode;
 
-public class S38_CountAndSay {
+public class S038CountAndSay {
 	public String countAndSay(int n) {		
     	StringBuilder sb=new StringBuilder("1");
     	String s=String.valueOf(n);

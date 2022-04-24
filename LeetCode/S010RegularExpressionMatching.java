@@ -1,6 +1,6 @@
 package LeetCode;
 
-public class S10_RegularExpressionMatching   {
+public class S010RegularExpressionMatching {
 	public boolean isMatch(String s, String p) {  
 	    return helper(s,p,0,0);  
 	}  

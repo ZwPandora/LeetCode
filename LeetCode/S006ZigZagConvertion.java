@@ -1,6 +1,6 @@
 package LeetCode;
 
-public class S06_ZigZagConvertion {
+public class S006ZigZagConvertion {
     public static String convert(String s, int numRows) {
         if (numRows <= 1) return s;
         StringBuilder[] sb = new StringBuilder[numRows];

@@ -1,6 +1,6 @@
 package LeetCode;
 
-public class S35_SearchInsertPosition  {
+public class S035SearchInsertPosition {
 	public int searchInsert(int[] nums, int target) {
 		if(nums.length==0||nums[0]>target)
 			return 0;

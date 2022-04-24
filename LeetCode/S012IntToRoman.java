@@ -1,6 +1,6 @@
 package LeetCode;
 
-public class S12_IntToRoman {
+public class S012IntToRoman {
 	public static String Convert(int n) {
 		String strRoman="";
 		int value[]= {1000,900,500,400,100,90,50,40,10,9,5,4,1};

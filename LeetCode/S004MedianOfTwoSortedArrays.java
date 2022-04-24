@@ -1,12 +1,12 @@
 package LeetCode;
 
-public class S04_MedianOfTwoSortedArrays {
+public class S004MedianOfTwoSortedArrays {
 	public static void main(String[]argus)
 	{
 		int[]A= {1,3,5,7,9},B= {2,4,6,8,10};
-		System.out.print("Á½¸öÊý×éµÄ×éºÏÖÐÎ»ÊýÊÇ£º"+findMedianSortedArrays(A,B));
+		System.out.print("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½Ç£ï¿½"+findMedianSortedArrays(A,B));
 	}
-	//ÇóÁ½¸öÅÅºÃÐòµÄÊý×éµÄ×éºÏÆðÀ´µÄÖÐÎ»Êý¡£
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Åºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½
 
 	public static double findMedianSortedArrays(int[] A, int[] B) {
 	    int m = A.length, n = B.length;

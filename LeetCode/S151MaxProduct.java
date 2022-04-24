@@ -1,4 +1,6 @@
-public class S151 {
+package LeetCode;
+
+public class S151MaxProduct {
     public static void main(String[] args) {
         int[] i = {1, 2, 3, 0, 4};
         System.out.println(maxProduct(i));
